@@ -22,8 +22,8 @@ body {
     justify-content: center;
     align-items: center;
     background: var(--Light-gray);
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh;
+    /* width: 100vw; */
 }
 
 .qr-holder{
@@ -50,14 +50,14 @@ body {
     margin: 16px;
 }
 .qr-header{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: var(--Dark-blue);
     margin: 0.5rem 0;
 }
 
 .qr-para{
-    font-size: 1.2rem;
+    font-size: 0.938rem;
     color: var(--Grayish-blue);
     margin: 0.8rem 0;
 }
